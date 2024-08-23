@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+class Main
+
+{
+    public static void main (String args[]){
+        String str = "Mahesh";
+        System.out.printf("\n the string value is :%s\n",str);
+        int x = 512;
+        System.out.printf("\n the integer value is :%d\n",x);
+        double f=5.246789;
+        System.out.printf("\n the float value is :%f\n",f);
+        System.out.printf("after formating to specific width: %8.3f\n",f);
+        System.out.printf("after formating to rightmargin the value is : %10.2f\n",f);
+    }  
+}
