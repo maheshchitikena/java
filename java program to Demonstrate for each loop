@@ -1,0 +1,19 @@
+import java.io.*;
+public class Main
+{
+public static void main(String[] args)
+{
+  int arr[] = {10,20,30,40,50};
+  String mock[] = {"SASI","MAHESH","CIC"};
+  System.out.println("the element in the arr are: ");
+  for(int I:arr)
+  {
+      System.out.println(I+"");
+  }
+  System.out.println("student details are:");
+  for(String I:mock)
+  {
+      System.out.println(I+" ");
+  }
+ }
+}
